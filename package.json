@@ -1,0 +1,23 @@
+{
+  "name": "immutable_with_typescript",
+  "version": "1.0.0",
+  "description": "React プロジェクトにて、WebApi のレスポンスを型定義したい。同時にイミュータブルにもしたい。\r ImmutableJS を使って型定義すると Map 型になってしまうし、Typescript で定義すると Immutable でなくなってしまう。  \r 双方の利点を活かした型を定義したい。",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecomfort/immutable_with_typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codecomfort/immutable_with_typescript/issues"
+  },
+  "homepage": "https://github.com/codecomfort/immutable_with_typescript#readme"
+}
