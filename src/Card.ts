@@ -1,5 +1,6 @@
 import * as Im from "immutable";
 
+// 例として Trello のカードをイメージ
 export interface CardData {
   id?: string;
   title?: string;
