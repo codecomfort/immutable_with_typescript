@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "React プロジェクトにて、WebApi のレスポンスを型定義したい。同時にイミュータブルにもしたい。\r ImmutableJS を使って型定義すると Map 型になってしまうし、Typescript で定義すると Immutable でなくなってしまう。  \r 双方の利点を活かした型を定義したい。",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "typescript": "^2.6.1"
+  },
   "devDependencies": {
-    "jest": "^21.2.1"
+    "@types/immutable": "^3.8.7",
+    "@types/jest": "^21.1.6",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/codecomfort/immutable_with_typescript/issues"
   },
-  "homepage": "https://github.com/codecomfort/immutable_with_typescript#readme"
+  "homepage": "https://github.com/codecomfort/immutable_with_typescript#readme",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
 }
