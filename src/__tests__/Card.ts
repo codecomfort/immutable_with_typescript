@@ -1,4 +1,5 @@
 import * as Im from "immutable";
+
 import {Card, CardData, Comment} from "../Card";
 
 describe("Card", () => {
