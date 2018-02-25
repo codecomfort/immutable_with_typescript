@@ -1,9 +1,9 @@
-import * as Im from "immutable";
+import {List} from "immutable";
 
 import {Card, ICard, Comment} from "../Card";
 
 describe("Card", () => {
-  const comments = Im.List([
+  const comments = List([
     new Comment("01", "テキスト０１", new Date(), new Date()),
     new Comment("02", "テキスト０２", new Date(), new Date()),
     new Comment("03", "テキスト０３", new Date(), new Date()),

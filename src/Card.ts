@@ -1,11 +1,13 @@
-import * as Im from "immutable";
+// import * as Im from "immutable";
+import { List, Record } from "immutable";
+// const { List, Record } = require("immutable");
 
 // 例として Trello のカードをイメージ
 export interface ICard {
   id: string;
   title: string;
   description: string;
-  comments: Im.List<Comment>;
+  comments: List<Comment>;
   due: Date;
   nested: {
     item1: string;
@@ -18,7 +20,7 @@ export class Comment {
   constructor(public id: string, public text: string, public createdAt: Date, public editedAt: Date) {}
 }
 
-// Im.Record の仕様上、defaultValues に項目がないと
+// Record の仕様上、defaultValues に項目がないと
 // コンストラクタで渡しても undefined になるので注意
 const defaultValues: Partial<ICard> = {
   id: null,
@@ -33,7 +35,7 @@ const defaultValues: Partial<ICard> = {
   },
 };
 
-export class Card extends Im.Record(defaultValues) {
+export class Card extends Record(defaultValues) {
 
   static validate(values: Partial<ICard>): Partial<ICard> {
     if (!values.title) {
@@ -49,7 +51,7 @@ export class Card extends Im.Record(defaultValues) {
   readonly id: string;
   readonly title: string;
   readonly description: string;
-  readonly comments: Im.List<Comment>;
+  readonly comments: List<Comment>;
   readonly due: Date;
   readonly nested: {
     readonly item1: string;
