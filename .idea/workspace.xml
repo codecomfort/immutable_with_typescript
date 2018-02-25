@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1025a274-ebda-439c-ab6b-3a323ca7b400" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/memo.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="1025a274-ebda-439c-ab6b-3a323ca7b400" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,103 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.30438757">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="Card.ts" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/__tests__/Card.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1710">
-                  <caret line="95" column="43" lean-forward="false" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                    <element signature="e#129#305#0" expanded="true" />
-                    <element signature="e#340#1653#0" expanded="true" />
-                    <element signature="e#378#1314#0" expanded="true" />
-                    <element signature="e#1357#1647#0" expanded="true" />
-                    <element signature="e#3928#4387#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tsconfig.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Card.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Card.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-432">
-                  <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-                  <folding>
-                    <element signature="n#!!block;n#validate#0;n#Card#0" expanded="true" />
-                    <element signature="n#!!block;n#constructor#0;n#Card#0" expanded="true" />
-                    <element signature="n#!!block;n#with#0;n#Card#0" expanded="true" />
-                    <element signature="e#1391#1787#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="memo.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/memo.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="270">
-                    <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="immutable-nonambient.d.ts" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/node_modules/immutable/dist/immutable-nonambient.d.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="11330">
-                  <caret line="2376" column="19" lean-forward="false" selection-start-line="2376" selection-start-column="19" selection-end-line="2376" selection-end-column="19" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -301,7 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519459355439</updated>
-      <workItem from="1519459357359" duration="17425000" />
+      <workItem from="1519459357359" duration="17518000" />
     </task>
     <servers />
   </component>
@@ -338,18 +238,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17425000" />
+    <option name="totallyTimeSpent" value="17518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13654302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13654302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25570032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25570032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -434,16 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/immutable/dist/immutable-nonambient.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11330">
-          <caret line="2376" column="19" lean-forward="false" selection-start-line="2376" selection-start-column="19" selection-end-line="2376" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -460,18 +349,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/Card.ts">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="95" column="43" lean-forward="false" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#129#305#0" expanded="true" />
-            <element signature="e#340#1653#0" expanded="true" />
-            <element signature="e#378#1314#0" expanded="true" />
-            <element signature="e#1357#1647#0" expanded="true" />
-            <element signature="e#3928#4387#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -488,22 +381,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memo.txt">
+    <entry file="file://$PROJECT_DIR$/node_modules/immutable/dist/immutable-nonambient.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="11330">
+          <caret line="2376" column="19" lean-forward="false" selection-start-line="2376" selection-start-column="19" selection-end-line="2376" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/__tests__/Card.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#129#305#0" expanded="true" />
+            <element signature="e#1357#1647#0" expanded="true" />
+            <element signature="e#1681#4393#0" expanded="true" />
+            <element signature="e#1721#3883#0" expanded="true" />
+            <element signature="e#3928#4387#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-# ImmutableJS と Typescript を使ったイミュータブルがクラス定義
+# ImmutableJS と Typescript を使ったイミュータブルなクラス定義
 
 ## 背景
 React プロジェクトにて、WebApi のレスポンスを型定義したい。同時にイミュータブルにもしたい。
