@@ -17,6 +17,11 @@ describe("Card", () => {
         description: "カードの詳細説明です",
         comments: comments,
         due: new Date(2017, 11, 12),
+        nested: {
+          item1: "item1",
+          item2: 2,
+          item3: true,
+        },
       };
 
       // Act
@@ -30,6 +35,10 @@ describe("Card", () => {
       expect(entity.comments.size).toBe(data.comments.size);
       expect(entity.comments).toEqual(data.comments);
       expect(entity.due).toEqual(data.due);
+      expect(entity.nested).toEqual(data.nested);
+      expect(entity.nested.item1).toBe(data.nested.item1);
+      expect(entity.nested.item2).toBe(data.nested.item2);
+      expect(entity.nested.item3).toBe(data.nested.item3);
     });
     test("不正な値ではエンティティが生成されないこと", () => {
       // Arrange
@@ -54,6 +63,11 @@ describe("Card", () => {
         description: "カードの詳細説明です",
         comments: comments,
         due: new Date(2017, 11, 12),
+        nested: {
+          item1: "item1",
+          item2: 2,
+          item3: true,
+        },
       };
       const entity = new Card(data);
       const newData: Partial<ICard> = {
@@ -62,6 +76,11 @@ describe("Card", () => {
         comments: comments  // リストへの変更と追加
           .set(1, new Comment("002", null, null, null))
           .push(new Comment("04", "テキスト０４", new Date(), new Date())),
+        nested: {
+          item1: "item2",
+          item2: 3,
+          item3: false,
+        },
       };
 
       // Act
@@ -75,6 +94,10 @@ describe("Card", () => {
       expect(entity.comments.size).toBe(data.comments.size); // 変化なし
       expect(entity.comments).toEqual(data.comments);
       expect(entity.due).toEqual(data.due);
+      expect(entity.nested).toEqual(data.nested);
+      expect(entity.nested.item1).toBe(data.nested.item1);
+      expect(entity.nested.item2).toBe(data.nested.item2);
+      expect(entity.nested.item3).toBe(data.nested.item3);
 
       // newEntity には反映されている
       expect(newEntity.id).toBeNull();
@@ -85,6 +108,10 @@ describe("Card", () => {
       expect(newEntity.comments.get(1).id).toBe(newData.comments.get(1).id);
       expect(newEntity.comments.get(3).id).toBe(newData.comments.get(3).id);
       expect(newEntity.due).toEqual(newData.due);
+      expect(newEntity.nested).toEqual(newData.nested);
+      expect(newEntity.nested.item1).toBe(newData.nested.item1);
+      expect(newEntity.nested.item2).toBe(newData.nested.item2);
+      expect(newEntity.nested.item3).toBe(newData.nested.item3);
     });
     test("不正な値では変更エンティティが生成されないこと", () => {
       // Arrange

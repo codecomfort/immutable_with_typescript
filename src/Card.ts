@@ -7,6 +7,11 @@ export interface ICard {
   description: string;
   comments: Im.List<Comment>;
   due: Date;
+  nested: {
+    item1: string;
+    item2: number;
+    item3: boolean;
+  }
 }
 
 export class Comment {
@@ -21,6 +26,11 @@ const defaultValues: Partial<ICard> = {
   description: null,
   comments: null,
   due: null,
+  nested: {
+    item1: null,
+    item2: null,
+    item3: null,
+  },
 };
 
 export class Card extends Im.Record(defaultValues) {
@@ -41,9 +51,26 @@ export class Card extends Im.Record(defaultValues) {
   readonly description: string;
   readonly comments: Im.List<Comment>;
   readonly due: Date;
+  readonly nested: {
+    readonly item1: string;
+    readonly item2: number;
+    readonly item3: boolean;
+  };
 
   with(values: Partial<ICard>) {
-    return this.merge(Card.validate(values)) as this;
+    return this.mergeDeepWith(
+      (oldVal, newVal, key) => {
+        if (key === "nested") {
+          // immutable の merge 系のメソッドは内部的に Immutable.fromJS をかけていて、
+          // POJO な子要素も強制的に immutable 化されてしまう。
+          // 結果、一度でも merge を介すと、nested.item1 のような形式ではアクセスできなくなる。
+          // (undefined が返される。nested.get("item1") のように書けば値を取れる)
+          // これでは不便なため、toJS をかけて POJO に戻しておく。
+          return newVal.toJS();
+        }
+        return newVal;
+      },
+      Card.validate(values)) as this;
   }
 }
 
