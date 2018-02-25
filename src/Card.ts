@@ -10,10 +10,7 @@ export interface ICard {
 }
 
 export class Comment {
-  id: string;
-  text: string;
-  createdAt: Date;
-  editedAt: Date;
+  constructor(public id: string, public text: string, public createdAt: Date, public editedAt: Date) {}
 }
 
 // Im.Record の仕様上、defaultValues に項目がないと
