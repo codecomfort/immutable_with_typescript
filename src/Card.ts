@@ -1,7 +1,7 @@
 import * as Im from "immutable";
 
 // 例として Trello のカードをイメージ
-export interface CardData {
+export interface ICard {
   id: string;
   title: string;
   description: string;
@@ -18,7 +18,7 @@ export class Comment {
 
 // Im.Record の仕様上、defaultValues に項目がないと
 // コンストラクタで渡しても undefined になるので注意
-const defaultValues: Partial<CardData> = {
+const defaultValues: Partial<ICard> = {
   id: null,
   title: null,
   description: null,
@@ -28,14 +28,14 @@ const defaultValues: Partial<CardData> = {
 
 export class Card extends Im.Record(defaultValues) {
 
-  static validate(values: Partial<CardData>): Partial<CardData> {
+  static validate(values: Partial<ICard>): Partial<ICard> {
     if (!values.title) {
       throw new Error(`title は必須です`);
     }
     return values;
   }
 
-  constructor(values?: Partial<CardData>) {
+  constructor(values?: Partial<ICard>) {
     values ? super(Card.validate(values)) : super();
   }
 
@@ -45,7 +45,7 @@ export class Card extends Im.Record(defaultValues) {
   readonly comments: Im.List<Comment>;
   readonly due: Date;
 
-  with(values: Partial<CardData>) {
+  with(values: Partial<ICard>) {
     return this.merge(Card.validate(values)) as this;
   }
 }

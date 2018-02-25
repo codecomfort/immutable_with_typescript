@@ -1,11 +1,11 @@
 import * as Im from "immutable";
 
-import {Card, CardData, Comment} from "../Card";
+import {Card, ICard, Comment} from "../Card";
 
 describe("Card", () => {
   describe("constructor", () => {
     test("正しくエンティティが生成されること", () => {
-      const data: Partial<CardData> = {
+      const data: Partial<ICard> = {
         id: null,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
@@ -23,7 +23,7 @@ describe("Card", () => {
       expect(entity.due).toEqual(new Date(2017, 11, 12));
     });
     test("不正な値ではエンティティが生成されないこと", () => {
-      const data: Partial<CardData> = {
+      const data: Partial<ICard> = {
         id: null,
         title: null,
         description: "カードの詳細説明です",
@@ -36,7 +36,7 @@ describe("Card", () => {
   });
   describe("with", () => {
     test("エンティティはイミュータブルであること", () => {
-      const data: Partial<CardData> = {
+      const data: Partial<ICard> = {
         id: null,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
@@ -45,7 +45,7 @@ describe("Card", () => {
       };
       const entity = new Card(data);
 
-      const updated: Partial<CardData> = {
+      const updated: Partial<ICard> = {
         title: "カードのタイトルを変更しました",
         due: new Date(2017, 11, 13),
       };
@@ -69,7 +69,7 @@ describe("Card", () => {
       expect(newEntity.due).toEqual(new Date(2017, 11, 13));
     });
     test("不正な値では変更エンティティが生成されないこと", () => {
-      const data: Partial<CardData> = {
+      const data: Partial<ICard> = {
         id: null,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
@@ -78,7 +78,7 @@ describe("Card", () => {
       };
       const entity = new Card(data);
 
-      const updated: Partial<CardData> = {
+      const updated: Partial<ICard> = {
         title: null,
         due: new Date(2017, 11, 13),
       };
