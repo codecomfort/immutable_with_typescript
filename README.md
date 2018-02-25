@@ -1,8 +1,8 @@
-# ImmutableJS と Typescript を使ったエンティティの定義
+# ImmutableJS と Typescript を使ったイミュータブルがクラス定義
 
 ## 背景
 React プロジェクトにて、WebApi のレスポンスを型定義したい。同時にイミュータブルにもしたい。
-ImmutableJS を使って型定義すると Map 型になってしまうし、Typescript で定義すると Immutable でなくなってしまう。  
+ImmutableJS を使って型定義すると Map 型になって使いにくいし、Typescript で定義したクラスは Immutable ではない。  
 双方の利点を活かした型を定義したい。
 
 ## 参考
@@ -12,4 +12,5 @@ ImmutableJS を使って型定義すると Map 型になってしまうし、Typ
 - get は普通のクラスのようにドットアクセス可  
 (immutable.js の Map のように、いちいち .get("title") などと書かなくて良い)
 - set は不可(イミュータブルなので。そのため readonly をつけてある)
-- 変更には with を使い、新しいインスタンスを返す
+- 変更には常に with を使い、新しいインスタンスを返す(自身は変更されない)。
+- 現在、きちんと動作するのは cbdcb3f2fbacca432a0e8a74424c8592b62f627e のコミット。

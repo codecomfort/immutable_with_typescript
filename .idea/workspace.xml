@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1025a274-ebda-439c-ab6b-3a323ca7b400" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/Card.ts" afterPath="$PROJECT_DIR$/src/Card.ts" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/Card.ts" afterPath="$PROJECT_DIR$/src/__tests__/Card.ts" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/memo.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4250457">
+    <splitter split-orientation="horizontal" split-proportion="0.30438757">
       <split-first>
         <leaf>
           <file leaf-file-name="Card.ts" pinned="false" current-in-tab="true">
@@ -63,7 +61,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Card.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Card.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Card.ts">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-432">
@@ -74,6 +72,29 @@
                     <element signature="n#!!block;n#with#0;n#Card#0" expanded="true" />
                     <element signature="e#1391#1787#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="memo.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/memo.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="270">
+                    <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -111,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/immutable.d.ts" />
         <option value="$PROJECT_DIR$/src/Card.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/memo.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -126,8 +149,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-980" />
-    <option name="y" value="93" />
+    <option name="x" value="-893" />
+    <option name="y" value="135" />
     <option name="width" value="2082" />
     <option name="height" value="1302" />
   </component>
@@ -278,7 +301,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519459355439</updated>
-      <workItem from="1519459357359" duration="16268000" />
+      <workItem from="1519459357359" duration="17425000" />
     </task>
     <servers />
   </component>
@@ -315,7 +338,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16268000" />
+    <option name="totallyTimeSpent" value="17425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
@@ -462,6 +485,25 @@
             <element signature="n#!!block;n#with#0;n#Card#0" expanded="true" />
             <element signature="e#1391#1787#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

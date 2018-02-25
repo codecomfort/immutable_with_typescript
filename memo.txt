@@ -1,0 +1,9 @@
+残課題
+
+・immutable@4.0.0-rc.9 で正しく動作させる
+・Factory の導入
+・以下の検証
+http://blog.mgechev.com/2018/01/18/react-typescript-redux-immutable/
+ただ、set や withMuTations で自分自身を操作させるのはどうか？
+・基底クラスの作成
+https://qiita.com/Takepepe/items/b9cd2afa41e584ccfef2
