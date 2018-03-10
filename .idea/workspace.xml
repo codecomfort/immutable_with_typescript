@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1025a274-ebda-439c-ab6b-3a323ca7b400" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Card.ts" afterPath="$PROJECT_DIR$/src/Card.ts" />
       <change beforePath="$PROJECT_DIR$/src/__tests__/Card.ts" afterPath="$PROJECT_DIR$/src/__tests__/Card.ts" />
     </list>
@@ -20,41 +19,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Card.ts" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Card.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/__tests__/Card.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="580">
-                  <caret line="187" column="6" lean-forward="false" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
                   <folding>
-                    <element signature="e#0#31#0" expanded="true" />
+                    <element signature="e#103#6418#0" expanded="true" />
                     <element signature="e#129#305#0" expanded="true" />
                     <element signature="e#340#1653#0" expanded="true" />
                     <element signature="e#378#1314#0" expanded="true" />
                     <element signature="e#1357#1647#0" expanded="true" />
+                    <element signature="e#1681#6414#0" expanded="true" />
                     <element signature="e#1721#3883#0" expanded="true" />
-                    <element signature="e#3923#5889#0" expanded="true" />
-                    <element signature="e#5934#6393#0" expanded="true" />
+                    <element signature="e#3920#5904#0" expanded="true" />
+                    <element signature="e#5949#6408#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -66,12 +46,11 @@
           <file leaf-file-name="Card.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Card.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+                <state relative-caret-position="525">
+                  <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
                   <folding>
                     <element signature="n#!!block;n#validate#0;n#Card#0" expanded="true" />
                     <element signature="n#!!block;n#constructor#0;n#Card#0" expanded="true" />
-                    <element signature="e#1355#1751#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -98,9 +77,9 @@
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/memo.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Card.ts" />
-        <option value="$PROJECT_DIR$/src/__tests__/Card.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/__tests__/Card.ts" />
+        <option value="$PROJECT_DIR$/src/Card.ts" />
       </list>
     </option>
   </component>
@@ -198,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.Card.with.ネスト項目の削除が正常に行われること">
+  <component name="RunManager" selected="Jest.Card.ts">
     <configuration name="Card.constructor.不正な値ではエンティティが生成されないこと" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -259,18 +238,33 @@
         <test-name value="ネスト項目の削除が正常に行われること" />
       </test-names>
     </configuration>
-    <list size="4">
+    <configuration name="Card.with.項目の削除が正常に行われること" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/Card.ts" />
+      <test-names>
+        <test-name value="Card" />
+        <test-name value="with" />
+        <test-name value="項目の削除が正常に行われること" />
+      </test-names>
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Jest.Card.ts" />
       <item index="1" class="java.lang.String" itemvalue="Jest.Card.constructor.不正な値ではエンティティが生成されないこと" />
       <item index="2" class="java.lang.String" itemvalue="Jest.Card.with.エンティティはイミュータブルであること" />
       <item index="3" class="java.lang.String" itemvalue="Jest.Card.with.ネスト項目の削除が正常に行われること" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.Card.with.項目の削除が正常に行われること" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Jest.Card.with.ネスト項目の削除が正常に行われること" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.Card.ts" />
-        <item index="2" class="java.lang.String" itemvalue="Jest.Card.with.エンティティはイミュータブルであること" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.Card.constructor.不正な値ではエンティティが生成されないこと" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Jest.Card.ts" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.Card.with.項目の削除が正常に行われること" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.Card.with.ネスト項目の削除が正常に行われること" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.Card.with.エンティティはイミュータブルであること" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.Card.constructor.不正な値ではエンティティが生成されないこと" />
       </list>
     </recent_temporary>
   </component>
@@ -288,44 +282,44 @@
       <option name="presentableId" value="Default" />
       <updated>1519459355439</updated>
       <workItem from="1519459357359" duration="17518000" />
-      <workItem from="1520677578048" duration="2505000" />
+      <workItem from="1520677578048" duration="4947000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Card_ts - 2018.03.10 at 19h 27m 34s.xml">
+    <history-entry file="Card_ts - 2018.03.11 at 00h 46m 03s.xml">
       <configuration name="Card.ts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_ts - 2018.03.10 at 19h 31m 37s.xml">
-      <configuration name="Card.ts" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 22m 06s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_エンティティはイミュータブルであること - 2018.02.25 at 17h 03m 01s.xml">
-      <configuration name="Card.with.エンティティはイミュータブルであること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 22m 28s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_エンティティはイミュータブルであること - 2018.02.25 at 17h 06m 40s.xml">
-      <configuration name="Card.with.エンティティはイミュータブルであること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 23m 14s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_エンティティはイミュータブルであること - 2018.02.25 at 17h 11m 06s.xml">
-      <configuration name="Card.with.エンティティはイミュータブルであること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 24m 04s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_エンティティはイミュータブルであること - 2018.02.25 at 17h 12m 14s.xml">
-      <configuration name="Card.with.エンティティはイミュータブルであること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 24m 33s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_エンティティはイミュータブルであること - 2018.02.25 at 17h 12m 43s.xml">
-      <configuration name="Card.with.エンティティはイミュータブルであること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 35m 08s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_エンティティはイミュータブルであること - 2018.02.25 at 17h 22m 42s.xml">
-      <configuration name="Card.with.エンティティはイミュータブルであること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 36m 36s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_ネスト項目の削除が正常に行われること - 2018.03.11 at 00h 01m 08s.xml">
-      <configuration name="Card.with.ネスト項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 39m 46s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_ネスト項目の削除が正常に行われること - 2018.03.11 at 00h 02m 02s.xml">
-      <configuration name="Card.with.ネスト項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 45m 56s.xml">
+      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20023000" />
+    <option name="totallyTimeSpent" value="22465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
@@ -336,7 +330,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3403909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31188926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -424,6 +418,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/immutable/dist/immutable-nonambient.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="566" column="4" lean-forward="false" selection-start-line="566" selection-start-column="4" selection-end-line="566" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -432,50 +444,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/immutable/dist/immutable-nonambient.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="566" column="4" lean-forward="false" selection-start-line="566" selection-start-column="4" selection-end-line="566" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Card.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="525">
+          <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
           <folding>
             <element signature="n#!!block;n#validate#0;n#Card#0" expanded="true" />
             <element signature="n#!!block;n#constructor#0;n#Card#0" expanded="true" />
-            <element signature="e#1355#1751#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/__tests__/Card.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="187" column="6" lean-forward="false" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#103#6418#0" expanded="true" />
             <element signature="e#129#305#0" expanded="true" />
             <element signature="e#340#1653#0" expanded="true" />
             <element signature="e#378#1314#0" expanded="true" />
             <element signature="e#1357#1647#0" expanded="true" />
+            <element signature="e#1681#6414#0" expanded="true" />
             <element signature="e#1721#3883#0" expanded="true" />
-            <element signature="e#3923#5889#0" expanded="true" />
-            <element signature="e#5934#6393#0" expanded="true" />
+            <element signature="e#3920#5904#0" expanded="true" />
+            <element signature="e#5949#6408#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

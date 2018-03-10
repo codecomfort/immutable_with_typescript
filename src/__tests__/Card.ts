@@ -113,7 +113,7 @@ describe("Card", () => {
       expect(newEntity.nested.item2).toBe(newData.nested.item2);
       expect(newEntity.nested.item3).toBe(newData.nested.item3);
     });
-    test("ネスト項目の削除が正常に行われること", () => {
+    test("項目の削除が正常に行われること", () => {
       // Arrange
       const data: Partial<ICard> = {
         id: null,
@@ -128,9 +128,10 @@ describe("Card", () => {
         },
       };
       const entity = new Card(data);
-      // const newData: Partial<ICard> = {  // nested 内のメンバが足りないとのコンパイルエラー
       const newData = {
+      // ※ Partial<ICard> と型を明記すると nested 内のメンバが足りないとのコンパイルエラー
         title: "カードのタイトルを変更しました",
+        comments: comments.delete(1),
         nested: {
           item1: "item2",
         },
@@ -156,11 +157,11 @@ describe("Card", () => {
       expect(newEntity.id).toBeNull();
       expect(newEntity.title).toBe(newData.title);
       expect(newEntity.description).toBe(data.description); // 触ってないので変化なし
-      // expect(newEntity.comments.size).toBe(newData.comments.size);  // 反映されている
-      // expect(newEntity.comments).toEqual(newData.comments);
-      // expect(newEntity.comments.get(1).id).toBe(newData.comments.get(1).id);
-      // expect(newEntity.comments.get(3).id).toBe(newData.comments.get(3).id);
-      // expect(newEntity.due).toEqual(newData.due);
+      expect(newEntity.comments.size).toBe(newData.comments.size);  // 反映されている
+      expect(newEntity.comments).toEqual(newData.comments);
+      expect(newEntity.comments.get(0).id).toBe(newData.comments.get(0).id);
+      expect(newEntity.comments.get(1).id).toBe(newData.comments.get(1).id);
+      expect(newEntity.comments.get(2)).toBeUndefined();
       expect(newEntity.nested).toEqual(newData.nested);
       expect(newEntity.nested.item1).toBe(newData.nested.item1);
       expect(newEntity.nested.item2).toBeUndefined();

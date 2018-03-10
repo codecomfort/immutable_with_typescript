@@ -60,19 +60,16 @@ export class Card extends Record(defaultValues) {
   };
 
   with(values: ICard) {
-    return this.mergeDeepWith(
-      (oldVal, newVal, key) => {
-        if (key === "nested") {
-          // immutable の merge 系のメソッドは内部的に Immutable.fromJS をかけていて、
-          // POJO な子要素も強制的に immutable 化されてしまう。
-          // 結果、一度でも merge を介すと、nested.item1 のような形式ではアクセスできなくなる。
-          // (undefined が返される。nested.get("item1") のように書けば値を取れる)
-          // これでは不便なため、toJS をかけて POJO に戻しておく。
-          return newVal.toJS();
-        }
-        return newVal;
-      },
-      Card.validate(values)) as this;
+    let newEntity = this.merge(Card.validate(values)) as this;
+
+    // mergeDeepWith では追加変更は正常に動作していたものの、削除がうまく動作していなかった。
+    // 少し無理やりだが直接代入で凌ぐ
+    // 更にネストが深くなった場合などは今後の課題。
+    if (values.nested) {
+      newEntity = newEntity.set("nested", values.nested);
+    }
+
+    return newEntity;
   }
 }
 
