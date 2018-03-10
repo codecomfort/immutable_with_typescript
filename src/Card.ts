@@ -4,15 +4,15 @@ import { List, Record } from "immutable";
 
 // 例として Trello のカードをイメージ
 export interface ICard {
-  id: string;
-  title: string;
-  description: string;
-  comments: List<Comment>;
-  due: Date;
-  nested: {
-    item1: string;
-    item2: number;
-    item3: boolean;
+  id?: string;
+  title?: string;
+  description?: string;
+  comments?: List<Comment>;
+  due?: Date;
+  nested?: {
+    item1?: string;
+    item2?: number;
+    item3?: boolean;
   }
 }
 
@@ -22,7 +22,7 @@ export class Comment {
 
 // Record の仕様上、defaultValues に項目がないと
 // コンストラクタで渡しても undefined になるので注意
-const defaultValues: Partial<ICard> = {
+const defaultValues: ICard = {
   id: null,
   title: null,
   description: null,
@@ -37,14 +37,14 @@ const defaultValues: Partial<ICard> = {
 
 export class Card extends Record(defaultValues) {
 
-  static validate(values: Partial<ICard>): Partial<ICard> {
+  static validate(values: ICard): ICard {
     if (!values.title) {
       throw new Error(`title は必須です`);
     }
     return values;
   }
 
-  constructor(values?: Partial<ICard>) {
+  constructor(values?: ICard) {
     values ? super(Card.validate(values)) : super();
   }
 
@@ -59,7 +59,7 @@ export class Card extends Record(defaultValues) {
     readonly item3: boolean;
   };
 
-  with(values: Partial<ICard>) {
+  with(values: ICard) {
     return this.mergeDeepWith(
       (oldVal, newVal, key) => {
         if (key === "nested") {
