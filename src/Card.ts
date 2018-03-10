@@ -23,15 +23,15 @@ export class Comment {
 // Record の仕様上、defaultValues に項目がないと
 // コンストラクタで渡しても undefined になるので注意
 const defaultValues: ICard = {
-  id: null,
-  title: null,
-  description: null,
-  comments: null,
-  due: null,
+  id: undefined,
+  title: undefined,
+  description: undefined,
+  comments: undefined,
+  due: undefined,
   nested: {
-    item1: null,
-    item2: null,
-    item3: null,
+    item1: undefined,
+    item2: undefined,
+    item3: undefined,
   },
 };
 

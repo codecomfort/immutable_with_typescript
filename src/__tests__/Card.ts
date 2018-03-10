@@ -12,7 +12,7 @@ describe("Card", () => {
     test("正しくエンティティが生成されること", () => {
       // Arrange
       const data: ICard = {
-        id: null,
+        id: undefined,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
         comments: comments,
@@ -29,7 +29,7 @@ describe("Card", () => {
 
       // Assert
       // 各フィールドに過不足なく反映されること
-      expect(entity.id).toBeNull();
+      expect(entity.id).toBeUndefined();
       expect(entity.title).toBe(data.title);
       expect(entity.description).toBe(data.description);
       expect(entity.comments.size).toBe(data.comments.size);
@@ -43,8 +43,8 @@ describe("Card", () => {
     test("不正な値ではエンティティが生成されないこと", () => {
       // Arrange
       const data: ICard = {
-        id: null,
-        title: null,
+        id: undefined,
+        title: undefined,
         description: "カードの詳細説明です",
         comments: comments,
         due: new Date(2017, 11, 12),
@@ -58,7 +58,7 @@ describe("Card", () => {
     test("エンティティはイミュータブルであること", () => {
       // Arrange
       const data: ICard = {
-        id: null,
+        id: undefined,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
         comments: comments,
@@ -74,7 +74,7 @@ describe("Card", () => {
         title: "カードのタイトルを変更しました",
         due: new Date(2017, 11, 13),
         comments: comments  // リストへの変更と追加
-          .set(1, new Comment("002", null, null, null))
+          .set(1, new Comment("002", undefined, undefined, undefined))
           .push(new Comment("04", "テキスト０４", new Date(), new Date())),
         nested: {
           item1: "item2",
@@ -88,7 +88,7 @@ describe("Card", () => {
 
       // Assert
       // entity はイミュータブル
-      expect(entity.id).toBeNull();
+      expect(entity.id).toBeUndefined();
       expect(entity.title).toBe(data.title);
       expect(entity.description).toBe(data.description);
       expect(entity.comments.size).toBe(data.comments.size); // 変化なし
@@ -100,7 +100,7 @@ describe("Card", () => {
       expect(entity.nested.item3).toBe(data.nested.item3);
 
       // newEntity には反映されている
-      expect(newEntity.id).toBeNull();
+      expect(newEntity.id).toBeUndefined();
       expect(newEntity.title).toBe(newData.title);
       expect(newEntity.description).toBe(data.description); // 触ってないので変化なし
       expect(newEntity.comments.size).toBe(newData.comments.size);  // 反映されている
@@ -116,7 +116,7 @@ describe("Card", () => {
     test("項目の削除が正常に行われること", () => {
       // Arrange
       const data: ICard = {
-        id: null,
+        id: undefined,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
         comments: comments,
@@ -141,7 +141,7 @@ describe("Card", () => {
 
       // Assert
       // entity はイミュータブル
-      expect(entity.id).toBeNull();
+      expect(entity.id).toBeUndefined();
       expect(entity.title).toBe(data.title);
       expect(entity.description).toBe(data.description);
       expect(entity.comments.size).toBe(data.comments.size); // 変化なし
@@ -153,7 +153,7 @@ describe("Card", () => {
       expect(entity.nested.item3).toBe(data.nested.item3);
 
       // newEntity には反映されている
-      expect(newEntity.id).toBeNull();
+      expect(newEntity.id).toBeUndefined();
       expect(newEntity.title).toBe(newData.title);
       expect(newEntity.description).toBe(data.description); // 触ってないので変化なし
       expect(newEntity.comments.size).toBe(newData.comments.size);  // 反映されている
@@ -170,7 +170,7 @@ describe("Card", () => {
     test("不正な値では変更エンティティが生成されないこと", () => {
       // Arrange
       const data: ICard = {
-        id: null,
+        id: undefined,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
         comments: comments,
@@ -178,7 +178,7 @@ describe("Card", () => {
       };
       const entity = new Card(data);
       const updated: ICard = {
-        title: null,
+        title: undefined,
         due: new Date(2017, 11, 13),
       };
 
