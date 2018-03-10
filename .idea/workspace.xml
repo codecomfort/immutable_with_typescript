@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1025a274-ebda-439c-ab6b-3a323ca7b400" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Card.ts" afterPath="$PROJECT_DIR$/src/Card.ts" />
       <change beforePath="$PROJECT_DIR$/src/__tests__/Card.ts" afterPath="$PROJECT_DIR$/src/__tests__/Card.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,18 +21,18 @@
           <file leaf-file-name="Card.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/__tests__/Card.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+                <state relative-caret-position="18">
+                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding>
-                    <element signature="e#103#6418#0" expanded="true" />
+                    <element signature="e#103#6292#0" expanded="true" />
                     <element signature="e#129#305#0" expanded="true" />
-                    <element signature="e#340#1653#0" expanded="true" />
-                    <element signature="e#378#1314#0" expanded="true" />
-                    <element signature="e#1357#1647#0" expanded="true" />
-                    <element signature="e#1681#6414#0" expanded="true" />
-                    <element signature="e#1721#3883#0" expanded="true" />
-                    <element signature="e#3920#5904#0" expanded="true" />
-                    <element signature="e#5949#6408#0" expanded="true" />
+                    <element signature="e#340#1635#0" expanded="true" />
+                    <element signature="e#378#1305#0" expanded="true" />
+                    <element signature="e#1348#1629#0" expanded="true" />
+                    <element signature="e#1663#6288#0" expanded="true" />
+                    <element signature="e#1703#3847#0" expanded="true" />
+                    <element signature="e#3884#5796#0" expanded="true" />
+                    <element signature="e#5841#6282#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/memo.txt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/__tests__/Card.ts" />
         <option value="$PROJECT_DIR$/src/Card.ts" />
+        <option value="$PROJECT_DIR$/src/__tests__/Card.ts" />
       </list>
     </option>
   </component>
@@ -282,7 +281,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519459355439</updated>
       <workItem from="1519459357359" duration="17518000" />
-      <workItem from="1520677578048" duration="4947000" />
+      <workItem from="1520677578048" duration="5030000" />
     </task>
     <servers />
   </component>
@@ -290,8 +289,8 @@
     <history-entry file="Card_ts - 2018.03.11 at 00h 46m 03s.xml">
       <configuration name="Card.ts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 22m 06s.xml">
-      <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Card_ts - 2018.03.11 at 00h 47m 30s.xml">
+      <configuration name="Card.ts" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
     <history-entry file="Card_with_項目の削除が正常に行われること - 2018.03.11 at 00h 22m 28s.xml">
       <configuration name="Card.with.項目の削除が正常に行われること" configurationId="JavaScriptTestRunnerJest" />
@@ -319,7 +318,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22465000" />
+    <option name="totallyTimeSpent" value="22548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
@@ -457,18 +456,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/__tests__/Card.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#103#6418#0" expanded="true" />
+            <element signature="e#103#6292#0" expanded="true" />
             <element signature="e#129#305#0" expanded="true" />
-            <element signature="e#340#1653#0" expanded="true" />
-            <element signature="e#378#1314#0" expanded="true" />
-            <element signature="e#1357#1647#0" expanded="true" />
-            <element signature="e#1681#6414#0" expanded="true" />
-            <element signature="e#1721#3883#0" expanded="true" />
-            <element signature="e#3920#5904#0" expanded="true" />
-            <element signature="e#5949#6408#0" expanded="true" />
+            <element signature="e#340#1635#0" expanded="true" />
+            <element signature="e#378#1305#0" expanded="true" />
+            <element signature="e#1348#1629#0" expanded="true" />
+            <element signature="e#1663#6288#0" expanded="true" />
+            <element signature="e#1703#3847#0" expanded="true" />
+            <element signature="e#3884#5796#0" expanded="true" />
+            <element signature="e#5841#6282#0" expanded="true" />
           </folding>
         </state>
       </provider>

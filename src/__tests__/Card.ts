@@ -11,7 +11,7 @@ describe("Card", () => {
   describe("constructor", () => {
     test("正しくエンティティが生成されること", () => {
       // Arrange
-      const data: Partial<ICard> = {
+      const data: ICard = {
         id: null,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
@@ -42,7 +42,7 @@ describe("Card", () => {
     });
     test("不正な値ではエンティティが生成されないこと", () => {
       // Arrange
-      const data: Partial<ICard> = {
+      const data: ICard = {
         id: null,
         title: null,
         description: "カードの詳細説明です",
@@ -57,7 +57,7 @@ describe("Card", () => {
   describe("with", () => {
     test("エンティティはイミュータブルであること", () => {
       // Arrange
-      const data: Partial<ICard> = {
+      const data: ICard = {
         id: null,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
@@ -70,7 +70,7 @@ describe("Card", () => {
         },
       };
       const entity = new Card(data);
-      const newData: Partial<ICard> = {
+      const newData: ICard = {
         title: "カードのタイトルを変更しました",
         due: new Date(2017, 11, 13),
         comments: comments  // リストへの変更と追加
@@ -115,7 +115,7 @@ describe("Card", () => {
     });
     test("項目の削除が正常に行われること", () => {
       // Arrange
-      const data: Partial<ICard> = {
+      const data: ICard = {
         id: null,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
@@ -129,7 +129,6 @@ describe("Card", () => {
       };
       const entity = new Card(data);
       const newData = {
-      // ※ Partial<ICard> と型を明記すると nested 内のメンバが足りないとのコンパイルエラー
         title: "カードのタイトルを変更しました",
         comments: comments.delete(1),
         nested: {
@@ -170,7 +169,7 @@ describe("Card", () => {
     });
     test("不正な値では変更エンティティが生成されないこと", () => {
       // Arrange
-      const data: Partial<ICard> = {
+      const data: ICard = {
         id: null,
         title: "カードのタイトルです",
         description: "カードの詳細説明です",
@@ -178,7 +177,7 @@ describe("Card", () => {
         due: new Date(2017, 11, 12),
       };
       const entity = new Card(data);
-      const updated: Partial<ICard> = {
+      const updated: ICard = {
         title: null,
         due: new Date(2017, 11, 13),
       };
