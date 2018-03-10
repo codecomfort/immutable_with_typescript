@@ -1,6 +1,5 @@
-// import * as Im from "immutable";
+///<reference path='../node_modules/immutable/dist/immutable.d.ts'/>
 import { List, Record } from "immutable";
-// const { List, Record } = require("immutable");
 
 // 例として Trello のカードをイメージ
 export interface ICard {
