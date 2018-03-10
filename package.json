@@ -4,7 +4,7 @@
   "description": "React プロジェクトにて、WebApi のレスポンスを型定義したい。同時にイミュータブルにもしたい。\r ImmutableJS を使って型定義すると Map 型になってしまうし、Typescript で定義すると Immutable でなくなってしまう。  \r 双方の利点を活かした型を定義したい。",
   "main": "index.js",
   "dependencies": {
-    "immutable": "^4.0.0-rc.9",
+    "immutable": "^3.8.2",
     "typescript": "^2.6.1"
   },
   "devDependencies": {
